@@ -33,7 +33,7 @@ function App() {
       <input style={{ width: '15rem'}} className='input-text' type="text" value={todo} onChange={(e)=>setTodo(e.target.value)} placeholder="List your plans " /> &nbsp;
       <button className='button-add' variant="light" onClick={addItem}>
        Add
-      </button >
+      </button>
       { show &&
       <Alert className='alert' variant="warning">
           Write your plans first!! <hr/>

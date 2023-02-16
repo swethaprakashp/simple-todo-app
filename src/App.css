@@ -1,38 +1,71 @@
 .App {
   text-align: center;
+  background-color:bisque;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color: rgb(29, 3, 6);
+  font-family: "Comic Sans MS";
+  padding-top: 10px ;
+  padding-bottom: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3{
+  color: rgb(81, 7, 28);
+  font-family: "Papyrus";
+  padding-top: 10px ;
+  padding-bottom: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+h6{
+  color: rgb(155, 65, 65);
+  font-family: "Comic Sans MS";
+  font-size: smaller;
+  padding-bottom: 20px;
+}
+.todo-check{
+  display: "flex";
+  padding-top: 20px ;
+  padding-bottom: 10px;
+}
+.input-text{
+  border-radius: 10px;
+  border-color: transparent;
+  outline-color: transparent;
+  margin-bottom: 1%;
+}
+.button-add{
+  background-color: rgb(234, 192, 140);
+  border-radius: 10px;
+  border-color: rgb(220, 185, 142);
+  border: none;
+  font-family: "Comic Sans MS";
+}
+.button-delete{
+  background-color: rgb(220, 185, 142);
+  border-radius: 10px;
+  border-color: rgb(220, 185, 142);
+  border: none;
+  font-family: "Comic Sans MS";
+}
+.checkbox{
+  color: brown;
+}
+ul{
+  list-style: none;
+}
+li{
+  margin: 12px;
+}
+.alert{
+  height:auto;
+  width: 20%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  font-family: "Comic Sans MS";
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  align-items: center;
+  margin: auto;
+  font-family: "Comic Sans MS";
 }
